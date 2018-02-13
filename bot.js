@@ -60,7 +60,7 @@ bot.on('ready', (message) => {
 			.addField('Trailer on Youtube', trailer)
 			.setFooter(synopsis);
 
-			const id ="375383058590859276" //channel to send
+			const id ="406756127410225172" //channel to send
 			const channel = bot.channels.get(id);
 			channel.send(embed);
 

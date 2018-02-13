@@ -39,7 +39,7 @@ bot.on('ready', (message) => {
 			.addField('Link to Watch or Download', url)
 			.addField('Trailer on Youtube', trailer);
 
-			const id ="406756127410225172" //channel to send
+			const id ="406756127410225172"
 			const channel = bot.channels.get(id);
 			channel.send(embed);
 
@@ -51,5 +51,5 @@ process.on('unhandledRejection', error => {
   console.error(`Uncaught Promise Error: \n${error.stack}`);
 });
 
-//bot will send data every 45 minutes
+
 bot.login(process.env.BOT_TOKEN);

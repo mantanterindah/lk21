@@ -7,7 +7,7 @@ const URL = "http://lk21.pw/"
 bot.on('ready', (message) => {
 	
 	setInterval(() => {
-		request(URL, function(err, resp, body) {
+		request.get(URL, function(err, resp, body) {
 		if (err) {
 		console.log(err)
 		}

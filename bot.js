@@ -26,7 +26,7 @@ bot.on('ready', (message) => {
 		var trailer = info.find('footer.more').find('a').attr('href')
 		console.log(judul)
 		console.log(rating+' '+'Quality'+' '+quality+' '+'Duration'+' '+duration)
-		console.log(url+'\n'+img)
+		console.log(img)
 		console.log(genre)
 		console.log(trailer)
 		

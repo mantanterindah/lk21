@@ -1,5 +1,7 @@
 const request = require('request');
 const cheerio = require('cheerio');
+const http = require('http');
+const url = require('url');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const URL = "http://lk21.pw/"

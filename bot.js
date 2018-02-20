@@ -70,7 +70,7 @@ bot.on('ready', (message) => {
 		
 
 		})
-	}, 2700000)
+	}, 10000)
 });
 
 process.on('unhandledRejection', error => {

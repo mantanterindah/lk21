@@ -2,12 +2,12 @@ const request = require('request');
 const cheerio = require('cheerio');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-
+const url = "http://lk21.pw/"
 
 bot.on('ready', (message) => {
 	
 	setInterval(() => {
-		request('http://lk21.pw/latest/', function(err, resp, body) {
+		request(url, function(err, resp, body) {
 		if (err) {
 		console.log(err)
 		}

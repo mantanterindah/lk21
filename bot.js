@@ -5,9 +5,9 @@ const bot = new Discord.Client();
 
 
 bot.on('ready', (message) => {
-	const url = 'http://lk21.pw/latest/'
+	
 	setInterval(() => {
-		request(url, function(err, resp, body) {
+		request('http://lk21.pw/latest/', function(err, resp, body) {
 		if (err) {
 		console.log(err)
 		}

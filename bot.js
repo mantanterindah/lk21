@@ -2,7 +2,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const URL = "http://lk21.pw"
+const URL = "http://lk21.pw/"
 
 bot.on('ready', (message) => {
 	
